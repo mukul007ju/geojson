@@ -2,7 +2,7 @@ $(document).ready(function() {
   // AJAX request to load GeoJSON data
   $.ajax({
     type: 'GET',
-    url: 'http://mukul007ju.heliohost.us/postgis2geojson.php',
+    url: 'https://mukul007ju.heliohost.us/postgis2geojson.php',
     dataType: 'json',
     success: function(data) {
       // Data received successfully, let's populate the table
